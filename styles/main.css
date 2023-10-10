@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #384653;
+    user-select: none;
+}
+
+#text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: #f5f4ff;
+}
+
+
+#githublogo{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#linkedinlogo{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    right: 0;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+#InputValue{
+    background-color: #afcbe5;
+    font-size: 30px;
+    width: 250px;
+    color: #384653;
+    outline-color: #465f87;
+    border-radius: 15px;
+    text-align: center;
+    height: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    border: 0;
+}
+
+.select{
+    background-color: #384653;
+    font-size: 20px;
+    width: 150px;
+    color: #afcbe5;
+    outline-color: #465f87;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    border: 1px solid #afcbe5;
+}
+
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Yatayda merkezi hizalama */
+  }
+
+  #result{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: #f5f4ff;
+  }
+
+  #convertButton{
+    cursor: pointer;
+  }
+
+  #convertButton:hover{
+    cursor: pointer;
+   fill: #384653;
+  }

@@ -1,0 +1,29 @@
+{
+  "name": "number-converter",
+  "version": "1.0.0",
+  "description": "Number converter app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ahmet Beyazıt Süleymanoğlu",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.2",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.example.NumberConverter",
+    "productName": "NumberConverter",
+    "directories": {
+      "output": "dist" 
+    },
+    "win": {
+      "target": "nsis", 
+      "icon": "./assets/icon.ico" 
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  }
+}
