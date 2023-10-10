@@ -1,4 +1,5 @@
 # numberConverter
 I wrote number converter program in Electron.js This program converts numbers in base 2, 10 and base 16.
-![image](https://github.com/devoloperbyzt/numberConverter/assets/83120547/2483b905-a694-4575-b4b2-f8a035abb4ce)
+![image](https://github.com/devoloperbyzt/numberConverter/assets/83120547/fedc7c93-837c-48f5-aa2f-4ef8bc95ee89)
+
 
